@@ -11,9 +11,9 @@ const Header = () => {
             <Link href="/">
                 <Image src="/assets/icons/logo.svg" alt="StellarTrade Logo" width={140} height={32} className='h-8 w-auto cursor-pointer' />
             </Link>
-            <nav className='hidden sm:block'>
+            {/* <nav className='hidden sm:block'>
                 <NavItems />
-            </nav>
+            </nav> */}
             
             <UserDropdown />
         </div>
